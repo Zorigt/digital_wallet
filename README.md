@@ -1,10 +1,10 @@
 Python libs used sys, time, copy
 
 Must run in this order:
-import_batch_input(...)
-feature_1(...)
-feature_2(...)
-feature_3(...)
+- import_batch_input(...)
+- feature_1(...)
+- feature_2(...)
+- feature_3(...)
 
 As long as you just run the antifraud.py file, there shouldn't be any issues. The reason for running one after the other is because they are dependent on each other for optimization. 
 
@@ -24,5 +24,9 @@ loading batch_payment.txt takes 25 seconds
 feature 1 takes 35 seconds
 feature 2 takes 38 seconds
 feature 3 takes 460 seconds
+
+A couple of ideas for other fraud detection, but didn't implement:
+- Check if payment exceeds certain amount. For example: people are more likely to transfer small amounts like coffeee, lunch, and movie tickets, etc. So, if any any amount exceeds abvoe $80 then it could be labaled unverified. 
+- Detect unusual frequency of money transfers within specific time persiod. For exmaple: if there were multiple transactions within 4 hour period then it could be labeled unverified as people will most likely to transfer once a day or even a week. 
 
 Zorigt
