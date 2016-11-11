@@ -26,7 +26,7 @@ feature 2 takes 38 seconds
 feature 3 takes 460 seconds
 
 A couple of ideas for other fraud detection, but didn't implement:
-- Check if payment exceeds certain amount. For example: people are more likely to transfer small amounts like for coffee, lunch, and movie tickets, etc. So, if any any amount exceeds abvoe $80 then it could be labaled unverified. 
-- Detect unusual frequency of money transfers within specific time persiod. For exmaple: if there were multiple transactions within 4 hour period then it could be labeled unverified as people will most likely to transfer once a day or even a week. 
+- Check if payment exceeds certain amount. For example: people are more likely to transfer small amounts like for coffee, lunch, and movie tickets, etc. So, if any any amount exceeds above $80 could be labaled unverified. 
+- Detect unusual frequency in money transfers within specific time period. For exmaple: if there were 10 transactions within 4 hour period then it could be labeled unverified as people are most likely to transfer money once a day or a few times a week. 
 
 Zorigt
